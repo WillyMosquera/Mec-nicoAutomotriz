@@ -1,2 +1,2 @@
-# Mec-nicoAutomotriz
+# MecanicoAutomotriz
 Servicio Mecánico Automotriz Popayán
