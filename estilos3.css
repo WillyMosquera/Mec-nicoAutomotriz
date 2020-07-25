@@ -1,0 +1,200 @@
+/*ESTILOS GENERALES*/
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica, Arial;
+}
+
+/* BODY */
+
+body{
+  background: url('img/fondo.jpg');
+  background-attachment: fixed; /*Permite que la imagen sea estable, sin importar si deslizamos hacia abajo se mostrara la misma imagen,sin posibilidad de que tenga fin*/
+}
+
+/* INICIO CUERPO DEL BLOG */
+
+.Global{
+  width: 96%;
+  margin: 0px auto;
+  margin-top: 25px;
+  padding: 25px;
+  background: white;
+  box-shadow: 0px 0px 2px gray;
+}
+
+.Global .color{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Global .Perfil{
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Global .Perfil img{
+  height: 198px;
+  box-shadow: -2px -5px 3px black;
+}
+
+.Global .encabezado{
+  width: 80%;
+  height: 60%;
+  font-size: 25px;
+  background-color: rgba(89, 92, 251, 0.7);
+  color: black;
+  padding: 20px;
+}
+
+.Posicion-PL{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.Perfil-Laboral{
+  width: 95%;
+  border: 1px solid rgb(14, 70, 33);
+  box-shadow: 1px 1px 3px black;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Perfil-Laboral h2{
+  margin-bottom: 10px;
+  font-size: 27px;
+}
+
+.Perfil-Laboral p{
+  text-align: justify;
+  font-size: 18px;
+}
+
+.Servicios-Ofertas{
+  text-align: center;
+  font-size: 27px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Servicios-Ofertas p{
+  font-size: 21px;
+  color: rgba(99, 99, 99, 0.9);
+}
+
+
+.Cuerpo-Blog{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Parte-Izquierda{
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Articulo{
+  width: 48%;
+  border: 1px solid gray;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 3px black;
+}
+
+.Articulo h2{
+  padding: 10px;
+}
+
+.Articulo img{
+  width: 100%;
+}
+
+.Articulo a{
+  margin-top: 10px;
+}
+
+.Articulo a button{
+  padding: 15px;
+  background-color: rgba(17, 18, 18, 0.74);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Articulo a button:hover{
+  cursor: pointer;
+  background-color: rgba(17, 18, 18, 0.4);
+}
+
+@media all and (max-width:885px){
+
+  .Global .Perfil{
+    font-size: 15px;
+  }
+
+  .Perfil-Laboral{
+    background-color: rgb(171, 227, 70);
+  }
+
+  .Perfil-Laboral p{
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .Global .encabezado{
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .Servicios-Ofertas{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .Articulo{
+    width: 98%;
+  }
+
+  .Articulo h2{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .Servicios-Ofertas h2{
+    font-size: 21px;
+  }
+
+  .Servicios-Ofertas p{
+    font-size: 18px;
+  }
+}
+
+/* FIN CUERPO DEL BLOG */
