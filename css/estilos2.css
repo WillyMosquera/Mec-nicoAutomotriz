@@ -116,9 +116,13 @@ body{
     font-size: 16px;
     font-weight: bold;
   }
+  
+  .Parte-Izquierda{
+    width: 98%;
+  }
 
   .Articulo{
-    width: 98%;
+    width: 99%;
   }
 }
 
